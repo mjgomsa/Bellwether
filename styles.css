@@ -1,0 +1,12 @@
+/* HEX: #009A6A */
+/* Hard reload: Cmd, Shift, R */
+
+.main_banner{
+    background-color:  #017550;
+    background-image: url("/images/plastic.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    padding-top: 25%;
+}
