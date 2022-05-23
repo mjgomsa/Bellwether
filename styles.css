@@ -1,12 +1,57 @@
 /* HEX: #009A6A */
 /* Hard reload: Cmd, Shift, R */
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    box-shadow: none;
+    font-weight: 200;
+  }
 
 .main_banner{
-    background-color:  #017550;
+    background-color:  #06B671;
     background-image: url("/images/plastic.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 120vh;
-    padding-top: 25%;
+    height: 210vh;
+    padding-top: 10%;
+}
+
+.flipdown{
+    /* align-self: center !important; */
+    margin: 0 auto !important;
+    margin-right: 21% !important;
+    font-size: 50;
+}
+
+
+#end_banner{
+    background: transparent;
+    background-image: url("/images/pattern.png");
+    background-repeat: repeat;
+    /* background-position: center; */
+    background-size: cover;
+    width: 100%;
+    border-radius: 70% 70% 0% 0%;
+    display: flex;
+    margin-top: -20%;
+    height:30vh;
+}
+
+#slogan_div, h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 180%;
+    color: white;
+    margin: 0 auto;
+}
+
+#slogan_div, h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 160%;
+    color: white;
+    margin: 0 auto;
+    text-align: right;
 }

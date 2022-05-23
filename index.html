@@ -5,16 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.css" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <!-- <link rel="stylesheet" href="css/flipdown/flipdown.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/flipdown/flipdown.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.js"></script>
+    <script src="https://kit.fontawesome.com/f99c50c520.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/flipdown/flipdown.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <link rel="icon" href="/images/bw-logo.png">
-    <title>Bellwether</title>
+    <title>Bellwether | App</title>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent">
         <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="">
             <img
             src="images/bw-long-lettering.png"
             height="55"
@@ -36,30 +44,34 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link active" href="#">About</a>
-            <a class="nav-link active" href="#">Pricing</a>
+            <a class="nav-link active" href="#about_banner">About</a>
             </div>
         </div>
         </div>
     </nav>
    
-    <div class="container-fluid text-center main_banner">  
-        <h1>Hello World</h1>
-        <!-- <div id="flipdown" class="flipdown">
-
-        </div> -->
-        
+    <div class="container-fluid main_banner">  
+        <div class="row">
+            <img class="mx-auto d-block" style="width:25%;" src="/images/bw-logo-transp.png">
+        </div>
+        <div class="row" id="#about_banner">
+            <div id="flipdown" class="flipdown"></div>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <div class="row mt-auto" id="slogan_div">
+            <h1>The ultimate social rewards app</h1>
+            <h2>Discover. Earn. Connect.</h2>
+        </div>
     </div>
 
+
+    <div class="container-fluid" id="end_banner"></div>
+    
     <footer class="mt-auto">
-        <div class="text-center p-4" style="background-color: white;">
+        <div class="text-center p-4" style="background-color: whitesmoke;">
             © 2022 Copyright: Bellwether
           </div>
     </footer>
 
-
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.js"></script>
-    <!-- <script src="js/flipdown/flipdown.js"></script> -->
-    <script src="https://kit.fontawesome.com/f99c50c520.js" crossorigin="anonymous"></script>
 </body>
 </html>
